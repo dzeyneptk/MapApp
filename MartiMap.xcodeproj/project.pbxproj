@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F3D30BE2488374D00912644 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D30BD2488374D00912644 /* AppConstants.swift */; };
+		5F3D30D82488476700912644 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D30D72488476700912644 /* NetworkManager.swift */; };
+		5F3D30DA24884F6800912644 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D30D924884F6800912644 /* RequestModel.swift */; };
+		5F3D30DD248855E000912644 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D30DC248855E000912644 /* HelperFunctions.swift */; };
+		5F3D30E12488F79A00912644 /* GooglePlaceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D30E02488F79A00912644 /* GooglePlaceVM.swift */; };
+		5F3D30E3248909BD00912644 /* GoogleMapsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D30E2248909BD00912644 /* GoogleMapsVM.swift */; };
+		5F6926BD24891822006A10C9 /* BaseResponseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6926BC24891822006A10C9 /* BaseResponseVM.swift */; };
+		5F6926BF248938AC006A10C9 /* ActivityIndicatorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6926BE248938AC006A10C9 /* ActivityIndicatorHelper.swift */; };
+		5F6926C124894CCA006A10C9 /* BaseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6926C024894CCA006A10C9 /* BaseResponseModel.swift */; };
+		5FE62190248673380048B36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6218F248673380048B36B /* AppDelegate.swift */; };
+		5FE62192248673380048B36B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE62191248673380048B36B /* SceneDelegate.swift */; };
+		5FE62197248673380048B36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE62195248673380048B36B /* Main.storyboard */; };
+		5FE6219C2486733A0048B36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE6219B2486733A0048B36B /* Assets.xcassets */; };
+		5FE6219F2486733A0048B36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE6219D2486733A0048B36B /* LaunchScreen.storyboard */; };
+		5FE621E52486900E0048B36B /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE621E42486900E0048B36B /* MapVC.swift */; };
+		5FE621EB2486BA4E0048B36B /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE621EA2486BA4E0048B36B /* SearchVC.swift */; };
+		5FE621F72486E6490048B36B /* DetailsCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE621F62486E6490048B36B /* DetailsCV.swift */; };
+		EB39DF4B8301754587FFE196 /* Pods_MartiMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA97C17DE28BD8BEB5D2D42 /* Pods_MartiMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A118FDDA63D284256CE61D2 /* Pods-MartiMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartiMap.debug.xcconfig"; path = "Target Support Files/Pods-MartiMap/Pods-MartiMap.debug.xcconfig"; sourceTree = "<group>"; };
+		506136A8155981D1D7C8D139 /* Pods-MartiMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartiMap.release.xcconfig"; path = "Target Support Files/Pods-MartiMap/Pods-MartiMap.release.xcconfig"; sourceTree = "<group>"; };
+		5F3D30BD2488374D00912644 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		5F3D30D72488476700912644 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5F3D30D924884F6800912644 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		5F3D30DC248855E000912644 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		5F3D30E02488F79A00912644 /* GooglePlaceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceVM.swift; sourceTree = "<group>"; };
+		5F3D30E2248909BD00912644 /* GoogleMapsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsVM.swift; sourceTree = "<group>"; };
+		5F6926BC24891822006A10C9 /* BaseResponseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponseVM.swift; sourceTree = "<group>"; };
+		5F6926BE248938AC006A10C9 /* ActivityIndicatorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorHelper.swift; sourceTree = "<group>"; };
+		5F6926C024894CCA006A10C9 /* BaseResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponseModel.swift; sourceTree = "<group>"; };
+		5FE6218C248673380048B36B /* MartiMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MartiMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE6218F248673380048B36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE62191248673380048B36B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FE62196248673380048B36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE6219B2486733A0048B36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE6219E2486733A0048B36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE621A02486733A0048B36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE621E42486900E0048B36B /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		5FE621EA2486BA4E0048B36B /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5FE621F62486E6490048B36B /* DetailsCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCV.swift; sourceTree = "<group>"; };
+		DDA97C17DE28BD8BEB5D2D42 /* Pods_MartiMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MartiMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE62189248673380048B36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB39DF4B8301754587FFE196 /* Pods_MartiMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3D30BC2488372200912644 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5FE62191248673380048B36B /* SceneDelegate.swift */,
+				5FE6218F248673380048B36B /* AppDelegate.swift */,
+				5F3D30BD2488374D00912644 /* AppConstants.swift */,
+				5FE62195248673380048B36B /* Main.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5F3D30BF24883ABA00912644 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D30D72488476700912644 /* NetworkManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5F3D30C024883AC800912644 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D30E02488F79A00912644 /* GooglePlaceVM.swift */,
+				5F3D30E2248909BD00912644 /* GoogleMapsVM.swift */,
+				5F6926BC24891822006A10C9 /* BaseResponseVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F3D30DB248855BC00912644 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D30DC248855E000912644 /* HelperFunctions.swift */,
+				5F6926BE248938AC006A10C9 /* ActivityIndicatorHelper.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5FE62183248673380048B36B = {
+			isa = PBXGroup;
+			children = (
+				5FE6218E248673380048B36B /* MartiMap */,
+				5FE6218D248673380048B36B /* Products */,
+				F343EE2252C136CAF6AF6391 /* Pods */,
+				63F10C0071ECE73FE433175E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE6218D248673380048B36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE6218C248673380048B36B /* MartiMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE6218E248673380048B36B /* MartiMap */ = {
+			isa = PBXGroup;
+			children = (
+				5FE6219B2486733A0048B36B /* Assets.xcassets */,
+				5F3D30BC2488372200912644 /* Common */,
+				5FE621E324868FBA0048B36B /* Controller */,
+				5FE621E224868FAE0048B36B /* View */,
+				5F3D30C024883AC800912644 /* ViewModel */,
+				5FE621E124868F8A0048B36B /* Model */,
+				5F3D30BF24883ABA00912644 /* Service */,
+				5FE6219D2486733A0048B36B /* LaunchScreen.storyboard */,
+				5FE621A02486733A0048B36B /* Info.plist */,
+				5F3D30DB248855BC00912644 /* Utility */,
+			);
+			path = MartiMap;
+			sourceTree = "<group>";
+		};
+		5FE621E124868F8A0048B36B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F6926C024894CCA006A10C9 /* BaseResponseModel.swift */,
+				5F3D30D924884F6800912644 /* RequestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FE621E224868FAE0048B36B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FE621E324868FBA0048B36B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FE621EA2486BA4E0048B36B /* SearchVC.swift */,
+				5FE621E42486900E0048B36B /* MapVC.swift */,
+				5FE621F62486E6490048B36B /* DetailsCV.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F10C0071ECE73FE433175E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA97C17DE28BD8BEB5D2D42 /* Pods_MartiMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F343EE2252C136CAF6AF6391 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A118FDDA63D284256CE61D2 /* Pods-MartiMap.debug.xcconfig */,
+				506136A8155981D1D7C8D139 /* Pods-MartiMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE6218B248673380048B36B /* MartiMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE621A32486733A0048B36B /* Build configuration list for PBXNativeTarget "MartiMap" */;
+			buildPhases = (
+				C76CDC3B74BE1F45CA3981D8 /* [CP] Check Pods Manifest.lock */,
+				5FE62188248673380048B36B /* Sources */,
+				5FE62189248673380048B36B /* Frameworks */,
+				5FE6218A248673380048B36B /* Resources */,
+				0A012F142B19EBC4B53072E5 /* [CP] Copy Pods Resources */,
+				2655613B74777E891F93E5F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MartiMap;
+			productName = MartiMap;
+			productReference = 5FE6218C248673380048B36B /* MartiMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE62184248673380048B36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Zeynebim;
+				TargetAttributes = {
+					5FE6218B248673380048B36B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FE62187248673380048B36B /* Build configuration list for PBXProject "MartiMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE62183248673380048B36B;
+			productRefGroup = 5FE6218D248673380048B36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE6218B248673380048B36B /* MartiMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE6218A248673380048B36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE6219F2486733A0048B36B /* LaunchScreen.storyboard in Resources */,
+				5FE6219C2486733A0048B36B /* Assets.xcassets in Resources */,
+				5FE62197248673380048B36B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A012F142B19EBC4B53072E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MartiMap/Pods-MartiMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MartiMap/Pods-MartiMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MartiMap/Pods-MartiMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2655613B74777E891F93E5F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MartiMap/Pods-MartiMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MartiMap/Pods-MartiMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MartiMap/Pods-MartiMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76CDC3B74BE1F45CA3981D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MartiMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE62188248673380048B36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3D30D82488476700912644 /* NetworkManager.swift in Sources */,
+				5F3D30DA24884F6800912644 /* RequestModel.swift in Sources */,
+				5F3D30E12488F79A00912644 /* GooglePlaceVM.swift in Sources */,
+				5FE621F72486E6490048B36B /* DetailsCV.swift in Sources */,
+				5F3D30BE2488374D00912644 /* AppConstants.swift in Sources */,
+				5F6926C124894CCA006A10C9 /* BaseResponseModel.swift in Sources */,
+				5F3D30DD248855E000912644 /* HelperFunctions.swift in Sources */,
+				5FE621EB2486BA4E0048B36B /* SearchVC.swift in Sources */,
+				5FE621E52486900E0048B36B /* MapVC.swift in Sources */,
+				5FE62190248673380048B36B /* AppDelegate.swift in Sources */,
+				5F6926BF248938AC006A10C9 /* ActivityIndicatorHelper.swift in Sources */,
+				5F3D30E3248909BD00912644 /* GoogleMapsVM.swift in Sources */,
+				5FE62192248673380048B36B /* SceneDelegate.swift in Sources */,
+				5F6926BD24891822006A10C9 /* BaseResponseVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FE62195248673380048B36B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE62196248673380048B36B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE6219D2486733A0048B36B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE6219E2486733A0048B36B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE621A12486733A0048B36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE621A22486733A0048B36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE621A42486733A0048B36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A118FDDA63D284256CE61D2 /* Pods-MartiMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F966A2BH3H;
+				INFOPLIST_FILE = MartiMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dzeynept.MartiMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE621A52486733A0048B36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506136A8155981D1D7C8D139 /* Pods-MartiMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F966A2BH3H;
+				INFOPLIST_FILE = MartiMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dzeynept.MartiMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE62187248673380048B36B /* Build configuration list for PBXProject "MartiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE621A12486733A0048B36B /* Debug */,
+				5FE621A22486733A0048B36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE621A32486733A0048B36B /* Build configuration list for PBXNativeTarget "MartiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE621A42486733A0048B36B /* Debug */,
+				5FE621A52486733A0048B36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE62184248673380048B36B /* Project object */;
+}
